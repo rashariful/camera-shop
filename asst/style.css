@@ -88,3 +88,155 @@ section{
     Width: 440px;
     Height: 414px;
 }
+/*=================== company Name =================== */
+.company-logo{
+    width: 1110px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+    border: 1px solid #f2ebeb;
+    align-items: center;
+    justify-items: center;
+    /* box-shadow: 0 1px 4px lightgray; */
+}
+.company img{
+    width: 80px;
+    height: auto;
+}
+/*=================== Popular Collections =================== */
+.popular-collections{
+    width: 1047px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    gap: 30px;
+}
+.item{
+    width: 329px;
+    height: auto;
+    background-color: #3A3A3A;
+    padding: 17px 14px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.popular-title{
+    text-align: center;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+.item-img{
+    width: 300px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+}
+.item-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+.item-price{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    margin:10px 0px;
+}
+.field{
+    font-size: 16px;
+    color: #FB8200;
+}
+.rating{
+    color: #5E6366;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.item-para{
+    font-family: 'Inter';
+    color: #787885;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    margin-top: 10px;
+}
+.see-more{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 1200px;
+}
+/*=================== Future Products =================== */
+
+.future-product{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.future-img {
+    width: 404px;
+    height: 270px;
+}
+.future-title{
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+.future-para{
+    color: #6C6C6C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.future-btn{
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    color: #FFFFFF;
+}
+/*=================== Footer section =================== */
+footer{
+    background-color:#0A0826; ;
+}
+.footer-content{
+    text-align: center;
+    padding: 40px 0;
+    width: 20%;
+    margin: 0 auto;
+}
+.footer-title{
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.footer-para1, .footer-para2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+     color: #D9DBE1;
+}
+.footer-para2{
+    margin-top: 10px;
+}
+.footer-social{
+    margin-top: 17px;
+    color: #FFFFFF;
+    background-color: #0A0826
+}
